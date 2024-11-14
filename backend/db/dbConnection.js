@@ -6,7 +6,7 @@ export const dbConnection = ()=>{
         dbName:"Resturant",
       
     })
-    console.log("Database connected successfully")
+    console.log("Database connected successfully And added a mongo")
     
    } catch (error) {
     console.log(error.message)
