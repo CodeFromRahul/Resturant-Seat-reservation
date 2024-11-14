@@ -26,7 +26,7 @@ const reservationSchema = new mongoose.Schema({
     },
 
     phoneNumber:{
-        type:Number,
+        type:String,
         required:true,
         minLength:[10,"Thier should be 10 valid number"]
     },
@@ -38,7 +38,7 @@ const reservationSchema = new mongoose.Schema({
 
 })
 
-export const reservation = mongoose.model("reservation",reservationSchema) 
+export const Reservation = mongoose.model("Reservation",reservationSchema) 
 
 
 
